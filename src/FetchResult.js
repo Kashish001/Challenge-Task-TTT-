@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-const baseUrl = "/testapi?rollnumber=";
+const baseUrl = "https://cors-anywhere.herokuapp.com/https://terriblytinytales.com/testapi?rollnumber=";
 let links = [];
+// "proxy": "https://terriblytinytales.com",
 
 const FetchResult = () => {
     (async () => {
